@@ -1,0 +1,26 @@
+/*
+    用于注入到iframe中的暗色模式样式
+*/
+
+/* 动态框 背景 圆角 */
+#host_home_feeds >li{
+    background: #474747;
+    color: white;
+    border-radius: 4px;
+}
+
+/* 动态框 我的名称 */
+.feed-v9 .f-single .f-single-head .user-info .f-name{
+    color:white;
+}
+
+/* 动态框 内容字 */
+.feed-v9 .f-single .f-info{
+    color:white;
+}
+
+/* 动态框 好友名称 */
+.feed-v9 a{
+    font-weight: bold;
+    color:white;
+}

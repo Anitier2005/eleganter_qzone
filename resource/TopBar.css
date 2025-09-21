@@ -1,0 +1,19 @@
+/*
+    用于调整顶栏以适配模式转换按钮
+*/
+
+.user-info{
+    display: flex;
+}
+
+#tb_theme_toggle{
+    display: block;
+    margin-left: 4px;
+    width: 26px;
+    height: 41px;
+}
+
+#tb_theme_toggle > i{
+    margin: 10px 0 0 2px;
+    width: 22px;
+}

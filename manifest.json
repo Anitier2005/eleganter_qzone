@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Eleganter Qzone",
+  "version": "0.1",
+  "description": "A plugin making Qzone beautiful.",
+  "content_scripts": [
+    {
+      "matches": ["https://user.qzone.qq.com/*"],
+      "js": [
+        "content_scripts/BasicOptimize.js",
+        "content_scripts/ResourcesInject.js",
+        "content_scripts/Toggle.js"
+      ]
+    },
+    {
+      "matches": ["https://user.qzone.qq.com/*"],
+      "js": ["content_scripts/ResourcesInject_frames.js"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["https://user.qzone.qq.com/*"],
+      "resources": [
+        "resource/system.svg",
+        "resource/time.svg",
+        "resource/light.svg",
+        "resource/dark.svg",
+        "resource/TopBar.css",
+        "resource/Interface.css",
+        "resource/Interface_frame.css"
+      ]
+    }
+  ]
+}

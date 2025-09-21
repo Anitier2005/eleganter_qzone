@@ -1,2 +1,72 @@
-# eleganter_qzone
-A chrome extension for make the qzone more eleganter.The extension supports all the browser based on chromiun,include edge.Besides,it provides remove the advantage.
+# 简介 Synopsis
+
+---
+该插件基于谷歌的配置文件V3标准创建，用于优化QQ空间的网页版电脑端。
+
+The extension is based on the v3 standard of the manifest file for Google to optimize the Qzone for websites on PC.
+
+# 功能 Function
+
+---
+该插件提供了以下功能 The extension offers the following functions:
+ 
+**基础功能**
+
+- 修复顶栏上边的用户名称不能正确显示的问题
+- 删除了 顶栏 的 “装扮” “游戏应用” 项目
+- 删除了 用户中心 那里已经失效的发表框
+- 删除了 用户中心 左侧栏 的 各种无用功能
+- 删除了 用户中心 左侧栏 的 广告
+
+
+**暗色主题功能**
+
+- 在顶栏右侧“黄钻”的旁边提供了一个“主题切换按钮”
+- 每次点击“主题切换按钮”会依次切换为“跟随系统”→“亮色模式”→“暗色模式”
+- “跟随系统”会依据系统设置的主题偏好自动选择模式
+- 主题模式将会记录在本地
+
+# 当前进展 Current Progress
+
+---
+- [x] 主题切换按钮
+- [ ] 主题切换脚本
+- [x] 个人中心样式
+- [x] 个人中心返回顶部样式
+- [x] 我的主页样式
+- [ ] 其他页面的返回顶部样式
+- [ ] 导航栏点击侦听逻辑
+- [ ] 模态框样式
+- [ ] 日志样式
+- [ ] 留言板样式
+- [ ] 相册样式
+- [ ] 说说样式
+- [ ] 更多样式
+- [ ] 个人档样式
+- [ ] 音乐样式
+- [ ] 补全Readme的英文翻译
+
+# 展望 Prospect
+
+---
+### Eleganter Qzone2 !!!
+
+第二版 EQ我将会 *彻底重写QQ空间网页版的电脑端界面*  
+届时，会在原有QQ空间的基础上加上一些新的功能，比如
+- 更好的内容搜索
+- 批量管理动态
+- 自动点赞
+- 优化界面加载
+- 优化界面样式
+- 自定义主题样式
+- 更好的媒体查看器  
+...
+
+
+# 技术要点  Technology Keys
+
+---
+- 右侧悬浮按钮会加载两次，首屏加载后“热点”按钮约3秒需要二次删除
+
+
+- “说说”中的动态是嵌入到iframe中的需要单独向iframe注入脚本
