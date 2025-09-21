@@ -1,6 +1,8 @@
 # 简介 Synopsis
 
 ---
+***该项目作者决定停止维护，并择期开启其续作的制作***
+
 该插件基于谷歌的配置文件V3标准创建，用于优化QQ空间的网页版电脑端。
 
 The extension is based on the v3 standard of the manifest file for Google to optimize the Qzone for websites on PC.
@@ -12,6 +14,8 @@ The extension is based on the v3 standard of the manifest file for Google to opt
  
 **基础功能**
 
+**你可以在 content_scripts/BasicOptimize.js 文件中通过把对应函数注释掉的方法开启或者关闭有关功能**
+
 - 修复顶栏上边的用户名称不能正确显示的问题
 - 删除了 顶栏 的 “装扮” “游戏应用” 项目
 - 删除了 用户中心 那里已经失效的发表框
@@ -21,6 +25,7 @@ The extension is based on the v3 standard of the manifest file for Google to opt
 
 **暗色主题功能**
 
+***按钮做出来了，但是没有实现其功能，目前打开插件就直接是暗色模式***
 - 在顶栏右侧“黄钻”的旁边提供了一个“主题切换按钮”
 - 每次点击“主题切换按钮”会依次切换为“跟随系统”→“亮色模式”→“暗色模式”
 - “跟随系统”会依据系统设置的主题偏好自动选择模式
@@ -30,21 +35,20 @@ The extension is based on the v3 standard of the manifest file for Google to opt
 
 ---
 - [x] 主题切换按钮
-- [ ] 主题切换脚本
+- [x] 主题切换脚本
 - [x] 个人中心样式
 - [x] 个人中心返回顶部样式
 - [x] 我的主页样式
-- [ ] 其他页面的返回顶部样式
-- [ ] 导航栏点击侦听逻辑
-- [ ] 模态框样式
-- [ ] 日志样式
-- [ ] 留言板样式
-- [ ] 相册样式
-- [ ] 说说样式
-- [ ] 更多样式
-- [ ] 个人档样式
-- [ ] 音乐样式
-- [ ] 补全Readme的英文翻译
+- [ ] ~~其他页面的返回顶部样式~~
+- [ ] ~~导航栏点击侦听逻辑~~
+- [ ] ~~模态框样式~~
+- [ ] ~~日志样式~~
+- [ ] ~~留言板样式~~
+- [ ] ~~相册样式~~
+- [ ] ~~说说样式~~
+- [ ] ~~更多样式~~
+- [ ] ~~个人档样式~~
+- [ ] ~~音乐样式~~
 
 # 展望 Prospect
 
